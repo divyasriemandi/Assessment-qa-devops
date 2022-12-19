@@ -1,0 +1,75 @@
+overview:
+Testing the functionality of the application.
+
+
+Bots test plan
+
+
+**links**
+website:http://127.0.0.1:5500/public/index.html
+
+
+
+**test criteria**
+-Make sure you open the website and play multiple times.
+-Make sure to lose at least once and win at least once.
+-information contains about the Bots are good.
+-Bots selected can be deleted to reselect.
+-play again button will revert back to the original info.
+
+**entry criteria**
+-test criteria provided
+-computer for testing
+-a working version of the app
+
+**exist criteria**
+-all our high priority tests have passes
+-the allotted time is up
+
+**other details**
+-should be able to run on any modern browser.
+-should be able to run on any local machine, mac or windows
+-chrome is the recommended browser
+
+
+
+editing a Bots
+
+**
+
+**steps**
+-navigate to our website
+http://127.0.0.1:5500/public/index.html
+-click on the see all Bots on the list
+-play a game
+pick 2 bots
+-click Duel
+
+**test postconditions**
+-the player info should have been updated to the win or loose
+
+**other details**
+-should be able to run on any modern browser.
+-should be able to run on any local machine, mac or windows
+-chrome is the recommended browser
+
+
+BUG REPORT
+
+**The bug for Bots game**
+
+**Steps to Reproduce**
+-Navigate to http://127.0.0.1:5500/public/index.html
+-click on to see all Bots 
+-can see all the Bots
+-click play and choose 2 bots from it and click Duel
+-message is displayed that player has won and shows the count for wins and loose
+
+**Expected results**
+-should see the results, how many times the player has won or loose
+
+**actual result**
+-player wins count was always zero even though it says you have won, which is not a whole positive number
+
+**environment**
+-Microsoft Edge
